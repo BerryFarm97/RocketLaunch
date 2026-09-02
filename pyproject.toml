@@ -1,0 +1,17 @@
+[project]
+name = "launch-pipeline"
+version = "0.1.0"
+description = "Get launch data via REST api and store it safely in PostgreSQL db for later evaluation."
+readme = "README.md"
+requires-python = ">=3.13, <3.14"
+authors = [
+    {name = "Austin Granbery"}
+]
+dependencies = [
+    "httpx>=0.28.1"
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1"
+]

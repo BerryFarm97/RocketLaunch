@@ -10,6 +10,10 @@ Along with learning new skills such as:
 - AWS
 - Pandas
 
+## What I am building
+
+Launch dates and launch statuses can change a lot, and APIs usually only show what the latest version of that launch looks like. I want to build a pipeline that can pull launch data, save the original data, clean it up, and eventually use it to look at changes and answer questions about launches.
+
 ## My why?
 
 Space is one of those topics that really gets me going. So when considering what my next project should be I couldn't help but make it space themed.
@@ -28,7 +32,10 @@ I know this project is going to take some time, so I am going to start small and
 
 ## Setup
 
-- Python 3.13 is required
-- uv is required
-- you use "uv sync --python 3.13" to create/sync the environment
-- you use "uv run pytest" to run the tests
+This project is currently using Python 3.13 and uv for dependency management.
+
+To set up the project environment:
+
+```powershell
+uv sync --python 3.13
+```
